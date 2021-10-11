@@ -1,5 +1,11 @@
 #include<iostream>
 
+
+
+int AddTwo(int a, int b){
+    return a+b;
+}
+
 void SplashScreen(){
     std::cout<<"RUNNING THE NEW PROGRAM\tPRE_ALPHA_BUILD V 0.0.1"<<std::endl<<std::endl;
 }
@@ -15,5 +21,11 @@ int main(){
 SplashScreen();
 std::cout<<"Hello World!";
 name();
+int num[2];
+std::cout<<std::endl<<"Enter one number: ";
+std::cin>>num[0];
+std::cout<<std::endl<<"Enter second number: ";
+std::cin>>num[1];
+std::cout<<std::endl<<"The sum of these numbers is: "<<AddTwo(num[0],num[1]);
 return 0;
 }
