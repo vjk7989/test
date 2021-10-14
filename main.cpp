@@ -49,3 +49,4 @@ cout<<endl;
 lol();
 return 0;
 }
+/*Just testing this shit. WTF do I even do? Am I messing up your code Dhroooooobb*/
