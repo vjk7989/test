@@ -42,6 +42,7 @@ cin>>num[0];
 cout<<endl<<"Enter second number: ";
 cin>>num[1];
 cout<<endl<<"The sum of these numbers is: "<<AddTwo(num[0],num[1]);
+cout<<endl<<"The sum of these numbers is: "<<AddTwo(num[0],num[1]);
 cout<<endl<<"The diff of these two numbers is: "<<SubTwo(num[0], num[1]);
 cout<<endl<<"The product of these two numbers is: "<<MultTwo(num[0],num[1]);
 cout<<endl<<"The remainder of the division of these two numbers is: "<<ModuloTwo(num[0], num[1]);
@@ -49,4 +50,5 @@ cout<<endl;
 lol();
 return 0;
 }
+
 /*Just testing this shit. WTF do I even do? Am I messing up your code Dhroooooobb*/
