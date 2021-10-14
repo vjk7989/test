@@ -1,5 +1,13 @@
 #include<iostream>
 
+int ModuloTwo(int a, int b){
+    return a%b
+}
+
+int DivTwo(int a, int b){
+    return a/b
+}
+
 int MultTwo(int a, int b){
     return a*b;
 }
@@ -35,5 +43,6 @@ std::cin>>num[1];
 std::cout<<std::endl<<"The sum of these numbers is: "<<AddTwo(num[0],num[1]);
 std::cout<<std::endl<<"The diff of these two numbers is: "<<SubTwo(num[0], num[1]);
 std::cout<<std::endl<<"The product of these two numbers is: "<<MultTwo(num[0],num[1]);
+std::cout<<std::endl<<"The remainder of the division of these two numbers is: "<<ModuloTwo(num[0], num[1]);
 return 0;
 }
