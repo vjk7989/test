@@ -9,7 +9,7 @@ int SubTwo(int a, int b){
 }
 
 void SplashScreen(){
-    std::cout<<"RUNNING THE ULTRA NEW PROGRAM\tPRE_ALPHA_BUILD V 0.0.1"<<std::endl<<std::endl;
+    std::cout<<"RUNNING THE ULTRA NEW NEW PROGRAM\tPRE_ALPHA_BUILD V 0.0.1"<<std::endl<<std::endl;
 }
 
 void name(){
