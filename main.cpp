@@ -13,7 +13,7 @@ int SubTwo(int a, int b){
 }
 
 void lol(){
-    std::cout<<std::endl<<""LOL"";
+    std::cout<<std::endl<<"LOL";
 }
 
 void SplashScreen(){
