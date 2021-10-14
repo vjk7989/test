@@ -4,10 +4,6 @@ int ModuloTwo(int a, int b){
     return a%b
 }
 
-int DivTwo(int a, int b){
-    return a/b
-}
-
 int MultTwo(int a, int b){
     return a*b;
 }
