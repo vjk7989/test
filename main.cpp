@@ -39,6 +39,7 @@ std::cin>>num[1];
 std::cout<<std::endl<<"The sum of these numbers is: "<<AddTwo(num[0],num[1]);
 std::cout<<std::endl<<"The diff of these two numbers is: "<<SubTwo(num[0], num[1]);
 std::cout<<std::endl<<"The product of these two numbers is: "<<MultTwo(num[0],num[1]);
-std::cout<<std::endl<<lol();
+std::cout<<std::endl;
+lol();
 return 0;
 }
