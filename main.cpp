@@ -1,5 +1,9 @@
 #include<iostream>
 
+int MultTwo(int a, int b){
+    return a*b;
+}
+
 int AddTwo(int a, int b){
     return a+b;
 }
@@ -29,6 +33,7 @@ std::cin>>num[0];
 std::cout<<std::endl<<"Enter second number: ";
 std::cin>>num[1];
 std::cout<<std::endl<<"The sum of these numbers is: "<<AddTwo(num[0],num[1]);
-std::cout<<std::endl<<"The diff of these two numbers is:"<<SubTwo(num[0], num[1]);
+std::cout<<std::endl<<"The diff of these two numbers is: "<<SubTwo(num[0], num[1]);
+std::cout<<std::endl<<"The product of these two numbers is: "<<MultTwo(num[0],num[1]);
 return 0;
 }
