@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 int ModuloTwo(int a, int b){
@@ -44,7 +45,9 @@ cin>>num[1];
 cout<<endl<<"The sum of these numbers is: "<<AddTwo(num[0],num[1]);
 cout<<endl<<"The diff of these two numbers is: "<<SubTwo(num[0], num[1]);
 cout<<endl<<"The product of these two numbers is: "<<MultTwo(num[0],num[1]);
-cout<<endl<<"The remainder of the division of these two numbers is: "<<ModuloTwo(num[0], num[1]);
+cout<<endl<<"The remainder of the division of these two numbers is: "<<ModuloTwo(num[0], num[1])<<endl;
+cout<<"square root of first number : "<<sqrt(num[0])<<endl;
+cout<<"square root of second number : "<<sqrt(num[1])<<endl;   
 cout<<endl;
 lol();
 return 0;
