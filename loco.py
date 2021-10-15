@@ -51,7 +51,7 @@ def main():
     print("The mod is: " + str(ModTwo(num1, num2)))
 
     #Footer
-    PrintLol();
+    PrintEnd();
 
 
 if __name__ == "__main__":
