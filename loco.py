@@ -12,8 +12,8 @@ def AddTwo(a,b):
 def SubTwo(a,b):
     return a-b
 
-def PrintLol():
-    print("\n---LOL---\n")
+def PrintEnd():
+    print("\n---End---\n")
 
 def GetAndPrintName():
     userName = input("\nEnter your name: ")
