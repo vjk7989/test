@@ -27,7 +27,7 @@ void PrintHeader(){
 }
 
 void GetAndPrintName(){
-    char name[20];
+    string name;
     cout << endl << "Enter your name: ";
     cin >> name;
     cout << endl << "It's good to meet you " << name << endl;
@@ -43,6 +43,10 @@ int main(){
     cin >> num[0];
     cout << endl << "Enter second number: ";
     cin >> num[1];
+    
+    if(num[1]==69 || num[0] == 69){
+    cout<<"ohh!, 69 is a nice choice "<<endl;
+}
 
     //Printing operations of those numbers
     cout << "\nThe sum is: " << AddTwo(num[0], num[1]);
