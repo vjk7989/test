@@ -15,9 +15,18 @@ def SubTwo(a,b):
 def PrintEnd():
     print("\n---End---\n")
 
+
 def GetAndPrintName():
     userName = input("\nEnter your name: ")
-    print("\n\nIt's good to meet you " + userName)
+    devs_vitap = ["vijay" , "sid" , "mariya" , "dhruv"]  
+'''
+guys add your names if you want to in the list devs_vitap
+'''
+    if userName in devs_vitap:
+        print("hey boss")
+    else :    
+        print("\n\nIt's good to meet you " + userName)
+
 
 def PrintHeader():
     print("---GIT TESTING DUMMY APP v 0.03 PY EDITION---")
