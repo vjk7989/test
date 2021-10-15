@@ -55,7 +55,7 @@ int main(){
     cout << "\nThe difference is: " << SubTwo(num[0], num[1]);
     cout << "\nThe product is: " << MultTwo(num[0], num[1]);
     cout << "\nThe mod is: " << ModuloTwo(num[0], num[1]);
-    cout<< "the square root of the numbres is "<<"1st number : "<<sqrt(num[0])<<", "<<"2nd number : "<<sqrt(num[1])<<endl; 
+    cout << "\nThe square root of the numbers are:" << "\n1st number : " << sqrt(num[0]) << "\n2nd number : " << sqrt(num[1]) << endl; 
 
     PrintLol();
     return 0;
