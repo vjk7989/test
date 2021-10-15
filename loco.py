@@ -33,10 +33,13 @@ def SixNineCheck(a,b):
     else:
         return False
 
+def PrintHelloWorld():
+    print('\n Hello World!! \n')
+
 def main():
     
     PrintHeader()
-    
+    PrintHelloWorld()
     GetAndPrintName()
     num1, num2 = GetTwoNumbers()
 
@@ -56,3 +59,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
