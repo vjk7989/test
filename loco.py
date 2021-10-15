@@ -32,6 +32,18 @@ def SixNineCheck(a,b):
         return True
     else:
         return False
+    
+def factorial(n):
+    if n < 0:
+        return 0
+    elif n == 0 or n == 1:
+        return 1
+    else:
+        fact = 1
+        while(n > 1):
+            fact *= n
+            n -= 1
+        return fact    
 
 def main():
     
@@ -49,6 +61,7 @@ def main():
     print("The difference is: " + str(SubTwo(num1, num2)))
     print("The product is: " + str(MultTwo(num1, num2)))
     print("The mod is: " + str(ModTwo(num1, num2)))
+    print("factorial is " ,factorial(num1),",",factorial(num2))
 
     #Footer
     PrintLol();
