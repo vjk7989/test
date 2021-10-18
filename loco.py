@@ -15,12 +15,20 @@ def SubTwo(a,b):
 def PrintEnd():
     print("\n---End---\n")
 
+
 def GetAndPrintName():
     userName = input("\nEnter your name: ")
-    print("\n\nIt's good to meet you " + userName)
+    devs_vitap = ["VIJAY" , "SID" , "MARIA" , "DHRUV", "RYU", "AMAAN"]
+    
+    # Guys add your names if you want to in the list devs_vitap
+    if userName.upper() in devs_vitap:
+        print("\nHey boss")
+    else :    
+        print("\n\nIt's good to meet you " + userName)
+
 
 def PrintHeader():
-    print("---GIT TESTING DUMMY APP v 0.03 PY EDITION---")
+    print("---GIT TESTING DUMMY APP v 0.04 PY EDITION---")
 
 def GetTwoNumbers():
     num1 = int(input("\nEnter one number: "))
@@ -32,6 +40,18 @@ def SixNineCheck(a,b):
         return True
     else:
         return False
+    
+def GetFact(n):
+    if n < 0:
+        return 0
+    elif n == 0 or n == 1:
+        return 1
+    else:
+        fact = 1
+        while(n > 1):
+            fact *= n
+            n -= 1
+        return fact    
 
 def PrintHelloWorld():
     print('\n Hello World!! \n')
@@ -52,6 +72,7 @@ def main():
     print("The difference is: " + str(SubTwo(num1, num2)))
     print("The product is: " + str(MultTwo(num1, num2)))
     print("The mod is: " + str(ModTwo(num1, num2)))
+    print("The Factorials are: ", GetFact(num1), " and ", GetFact(num2))
 
     #Footer
     PrintEnd();
@@ -59,4 +80,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/main
