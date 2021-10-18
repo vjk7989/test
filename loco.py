@@ -18,7 +18,7 @@ def PrintEnd():
 
 def GetAndPrintName():
     userName = input("\nEnter your name: ")
-    devs_vitap = ["VIJAY" , "SID" , "MARIA" , "DHRUV", "RYU", "AMAAN"]
+    devs_vitap = ["VIJAY" , "SID" , "MARIA" , "DHRUV", "RYU", "AMAAN","EESH"]
     
     # Guys add your names if you want to in the list devs_vitap
     if userName.upper() in devs_vitap:
@@ -56,6 +56,17 @@ def GetFact(n):
 def PrintHelloWorld():
     print('\n Hello World!! \n')
 
+def MaxOf3():
+    a=int(input("enter a  "))
+    b=int(input("enter b  "))
+    c=int(input("enter c  "))
+    if a>b and a>c:
+        print(a,"is maximum")
+    elif b>a and b>c:
+        print(b,'is maximum')
+    else:
+        print(c,'is maximum')
+
 def main():
     
     PrintHeader()
@@ -63,6 +74,7 @@ def main():
     GetAndPrintName()
     num1, num2 = GetTwoNumbers()
 
+    
     #69 checker
     if SixNineCheck(num1, num2):
         print("\n\nOhhh! 69 is a nice choice ( ͡~ ͜ʖ ͡°)")
@@ -74,13 +86,12 @@ def main():
     print("The mod is: " + str(ModTwo(num1, num2)))
     print("The Factorials are: ", GetFact(num1), " and ", GetFact(num2))
 
+    MaxOf3()
+    
     #Footer
     PrintEnd();
 
 
 if __name__ == "__main__":
     main()
-<<<<<<< HEAD
 
-=======
->>>>>>> refs/remotes/origin/main
