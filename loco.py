@@ -57,9 +57,10 @@ def PrintHelloWorld():
     print('\n Hello World!! \n')
 
 def MaxOf3():
-    a=int(input("enter a  "))
-    b=int(input("enter b  "))
-    c=int(input("enter c  "))
+    print("\nFind MAX of 3:\n")
+    a=int(input("Enter a:  "))
+    b=int(input("Enter b:  "))
+    c=int(input("Enter c:  "))
     if a>b and a>c:
         print(a,"is maximum")
     elif b>a and b>c:
