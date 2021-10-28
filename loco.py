@@ -88,8 +88,8 @@ def main():
     print("The Factorials are: ", GetFact(num1), " and ", GetFact(num2))
 
     MaxOf3()
-n = input("Enter an expression : ")
-print("result : " , eval(n))
+    n = input("\nEnter an expression : ")
+    print("result : " , eval(n))
     
     #Footer
     PrintEnd();
